@@ -4,7 +4,7 @@
 
 from [Yuri's great tutorial](https://www.youtube.com/watch?v=IJBYGRuvvRU)
 
-## start  
+## install  
 
 `canvas-sketch --new --template=three --open`
 
