@@ -11,7 +11,7 @@
   "dependencies": {
     "gsap": "^3.6.0",
     "shader": "^1.0.0",
-    "three": "^0.120.1",
+    "three": "^0.125.0",
     "three-orbit-controls": "^82.1.0"
   }
 }
