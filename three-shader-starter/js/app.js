@@ -31,8 +31,8 @@ export default class Sketch {
 			1000
 		);
 
-		// var frustumSize = 10;
-		// var aspect = window.innerWidth / window.innerHeight;
+		// let frustumSize = 10;
+		// let aspect = window.innerWidth / window.innerHeight;
 		// this.camera = new THREE.OrthographicCamera(frustumSize*aspect/ -2, frustumSize*aspect/2, frustumSize/2, frustumSize/-2, -1000, 1000);
 		
 		this.camera.position.set(0, 0 , 2);
