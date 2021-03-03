@@ -36,8 +36,8 @@ this.camera = new THREE.PerspectiveCamera (
 );
 */
 
-var frustumSize = 1.4;
-var aspect = 1;
+let frustumSize = 1.4;
+let aspect = 1;
 this.camera = new THREE.OrthographicCamera(frustumSize*aspect/ -2, frustumSize*aspect/2, frustumSize/2, frustumSize/-2, -1000, 1000);
 this.camera.position.set(0, 0, 2);
 this.controls = new OrbitControls(this.camera, this.renderer.domElement);
